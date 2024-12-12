@@ -30,7 +30,6 @@ function App() {
 
       {/* 입력 폼 */}
       <section>
-        <form onSubmit={(e) => e.preventDefault()}>
           <label htmlFor="title">제목</label>
           <input
             id="title"
@@ -49,7 +48,7 @@ function App() {
           ></textarea>
 
           <button onClick={handleAddPost}>추가</button>
-        </form>
+
       </section>
 
       {/* 게시글 목록 */}
